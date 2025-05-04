@@ -10,9 +10,10 @@ build/
 bin/
 # 构建输出
 
-lv_drivers/
-lvgl/
-
+/lv_drivers/*
+/lvgl/* 
+!/lvgl/.gitkeep
+!/lv_drivers/.gitkeep
 # IDE配置
 .vscode/
 *.suo
